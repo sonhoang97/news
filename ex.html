@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+
+    }
+    .bg {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .ts-overlay-style {
+      position: relative;
+    }
+    .featured-post-style .item {
+      min-height: 498px;
+    }
+
+    .featured-post .item {
+      background-position: 50% 50%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .ts-overlay-style .overlay-post-content {
+      position: absolute;
+      bottom: 0;
+    }
+
+    .ts-grid-style-3 .ts-overlay-style .item {
+      min-height: 247px;
+    }
+
+    .mt-15 {
+      margin-top: 15px;
+    }
+
+    .ts-while{
+      color: #FFFFFF;
+      padding: 0px 3px;
+    }
+
+    .post-title {
+      font-size: 30px;
+      font-weight: 500;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      margin-left:20px;
+    }
+
+
+    .ts-bg-bottom{
+      color: #FFFFFF;
+      bottom:0;
+      position: absolute;
+    }
+    .ts-orange-bg {
+      background: #ff6e0d;
+    }
+    .ts-while-bg {
+      background: #FFFFFF;
+    }
+  </style>
+</head>
+<body style="background: #D8D8D8">
+
+  <div class="container ts-while-bg">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="nnm.png" width="150" height="150">
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nông Nghiệp Mới</a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" >
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Kinh doanh
+                <span class="caret"></span></button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Nông sản</a>
+                  <a class="dropdown-item" href="#">Hải sản</a>
+                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Công nghệ mới
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Trang Thiết bị</a>
+                <a class="dropdown-item" href="#">Thực phẩm</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">A00224466
+                  <span class="caret"></span>
+                </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">A1</a>
+                    <a class="dropdown-item" href="#">A2</a>
+                  </div>
+              </div>
+          </li>    
+        </ul>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item" >
+          <a class="nav-link" href="#">Log in </a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <section class="mt-15">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-8" style="padding:3px;">
+            <div class="ts-overlay-style featured-post-style">
+              <div class="bg item" style= "background-image: url(http://daucamgao.com/data/upload_file/Image/dong-lua/Canh-dong-lua-viet-nam-3.jpg);">
+                <a class="ts-orange-bg ts-while" href="#">Đời sống</a>
+                <div class="overlay-post-content">
+                  <div class="post-title">
+                    <h2 href="#" style="color:#FFFFFF">“Đời là ba chữ T”</h2>
+                    <b class="ts-while" style="font-size: 15px;">25/04/2019</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ts-grid-style-3 featured-post" style="padding:3px;" >
+
+            <div class="ts-overlay-style ">
+              <div class="bg item" style= "background-image: url(http://daucamgao.com/data/upload_file/Image/dong-lua/Canh-dong-lua-viet-nam-3.jpg);  min-height: 249px;">
+                <a class="ts-orange-bg ts-while" href="#">Nông sản</a>
+                <div class="overlay-post-content">
+                  <div class="post-title">
+                    <h3 href="#" style="color:#FFFFFF">“Đời là bốn chữ T”</h3>
+                    <b class="ts-while" style="font-size: 15px;">25/04/2019</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" ts-grid-style-3 featured-post">
+              <div class="ts-overlay-style ">
+                <div class="bg item" style= "background-image: url(http://daucamgao.com/data/upload_file/Image/dong-lua/Canh-dong-lua-viet-nam-3.jpg);  min-height: 249px;">
+                  <a class="ts-orange-bg ts-while" href="#">Nông sản</a>
+                  <div class="overlay-post-content">
+                    <div class="post-title">
+                      <h3 href="#" style="color:#FFFFFF">“Đời là bốn chữ T”</h3>
+                      <b class="ts-while" style="font-size: 15px;">25/04/2019</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="ts-while-bg">
+              <h2>Xem nhiều nhất</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Footer</p>
+    </div>
+
+
+  </body>
+  </html>
